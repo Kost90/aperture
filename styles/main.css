@@ -1,41 +1,54 @@
-@use "fonts";
-
-html{
-  font-family: 'Poppins';
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Italic.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-MediumItalic.ttf");
+}
+html {
+  font-family: "Poppins";
 }
 
-body{
+body {
   background: #181818;
-  h1{
-    font-size: 54px;
-    line-height: 59px;
-    color: #FFFFFF;
-  }
-  p{
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-  }
-  a{
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
+}
+body h1 {
+  font-size: 54px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+body p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+body a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
 
-header{
+header {
   padding: 30px 0;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-
 .navbar {
   width: 100%;
-  box-shadow: 0 1px 4px rgb(243 245 247 / 0%);
+  box-shadow: 0 1px 4px rgba(243, 245, 247, 0);
 }
 
 .nav-container {
@@ -61,11 +74,11 @@ header{
   padding: 0.7rem;
 }
 
-.navbar .nav-container a:hover{
+.navbar .nav-container a:hover {
   font-weight: bolder;
 }
 
-.navbar .nav-container .menu-items button{
+.navbar .nav-container .menu-items button {
   background: #FFFFFF;
   border-radius: 14px;
   width: 120px;
@@ -130,7 +143,7 @@ header{
 
 .navbar .menu-items {
   padding-top: 100px;
-  box-shadow: inset 0 0 2000px rgb(255 255 255 / 0%);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0);
   height: 100vh;
   width: 100%;
   transform: translate(-150%);
@@ -153,25 +166,24 @@ header{
   font-size: 1.2rem;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .menu-items {
+.nav-container input[type=checkbox]:checked ~ .menu-items {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+.nav-container input[type=checkbox]:checked ~ .hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+.nav-container input[type=checkbox]:checked ~ .hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+.nav-container input[type=checkbox]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo{
+.nav-container input[type=checkbox]:checked ~ .logo {
   display: none;
 }
 
-
-
+/*# sourceMappingURL=main.css.map */

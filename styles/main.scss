@@ -1,7 +1,7 @@
 @use "fonts";
 
 html{
-  font-family: 'Poppins';
+  font-family:'Poppins';
 }
 
 body{
@@ -115,7 +115,7 @@ header{
 }
 
 .nav-container .hamburger-lines .line1 {
-  transform-origin: 0% 0%;
+  transform-origin: 0 0;
   transition: transform 0.4s ease-in-out;
 }
 
@@ -124,7 +124,7 @@ header{
 }
 
 .nav-container .hamburger-lines .line3 {
-  transform-origin: 0% 100%;
+  transform-origin: 0 100%;
   transition: transform 0.4s ease-in-out;
 }
 

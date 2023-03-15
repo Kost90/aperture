@@ -298,7 +298,11 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+  .main-section {
+    height: 716px;
+  }
   .main-section .main-block {
+    padding: 460px 10px 75px 10px;
     gap: 15px;
   }
   .main-section .main-block h1 {

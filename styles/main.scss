@@ -5,7 +5,7 @@ html{
 }
 
 body{
-  background: #181818;
+  background: black;
   h1{
     font-size: 54px;
     line-height: 59px;
@@ -290,12 +290,25 @@ header{
     }
   }
 }
+.cont-svg{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  gap: 5px;
+  p{
+    font-size: 9px;
+    line-height: 5px;
+    color: #FFFFFF;
+  }
+}
 
 @media screen and (min-width: 1024px) {
 .main-section{
-  height: 716px;
+  height: 720px;
   .main-block{
-    padding: 460px 10px 75px 10px;
+    padding: 430px 10px 75px 10px;
     gap: 15px;
     h1{
       font-size: 54px;
@@ -310,9 +323,183 @@ header{
     }
   }
 }
+  .cont-svg{
+    gap: 10px;
+    p{
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+    }
+  }
 }
 
+//Section cards
 
+.hero{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  line-height: 35px;
+}
+.p-upper2{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 42px;
+}
+
+.card-contr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  p{
+    font-size: 8px;
+    line-height: 10px;
+    padding-right: 25px;
+    padding-left: 20px;
+  }
+  .p-upper{
+    text-transform: uppercase;
+    padding-top: 250px;
+  }
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-1-card.png") no-repeat;
+  button{
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    &:hover{
+      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+      background: transparent;
+      color: white;
+      transition-duration: 0.6s;
+    }
+  }
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-2-card.png") no-repeat;
+  button{
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    &:hover{
+      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+      background: transparent;
+      color: white;
+      transition-duration: 0.6s;
+    }
+  }
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-3-card.png") no-repeat;
+  button{
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    &:hover{
+      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+      background: transparent;
+      color: white;
+      transition-duration: 0.6s;
+    }
+  }
+}
+
+.card4{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-4-card.png") no-repeat;
+  button{
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    &:hover{
+      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+      background: transparent;
+      color: white;
+      transition-duration: 0.6s;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .p-upper2{
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .card-contr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    p{
+      font-size: 8px;
+      line-height: 10px;
+      padding-right: 25px;
+      padding-left: 20px;
+    }
+    .p-upper{
+      text-transform: uppercase;
+      padding-top: 250px;
+    }
+  }
+}
 
 
 

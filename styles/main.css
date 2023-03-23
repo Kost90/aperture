@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background: #181818;
+  background: black;
 }
 body h1 {
   font-size: 54px;
@@ -297,12 +297,26 @@ header {
   line-height: 15px;
 }
 
+.cont-svg {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  gap: 5px;
+}
+.cont-svg p {
+  font-size: 9px;
+  line-height: 5px;
+  color: #FFFFFF;
+}
+
 @media screen and (min-width: 1024px) {
   .main-section {
-    height: 716px;
+    height: 720px;
   }
   .main-section .main-block {
-    padding: 460px 10px 75px 10px;
+    padding: 430px 10px 75px 10px;
     gap: 15px;
   }
   .main-section .main-block h1 {
@@ -315,6 +329,179 @@ header {
   }
   .main-section .main-block .p-upper {
     letter-spacing: 2px;
+  }
+  .cont-svg {
+    gap: 10px;
+  }
+  .cont-svg p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+}
+.hero {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.p-upper2 {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 42px;
+}
+
+.card-contr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card-contr p {
+  font-size: 8px;
+  line-height: 10px;
+  padding-right: 25px;
+  padding-left: 20px;
+}
+.card-contr .p-upper {
+  text-transform: uppercase;
+  padding-top: 250px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-1-card.png") no-repeat;
+}
+.card1 button {
+  background: #FFFFFF;
+  border-radius: 14px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.card1 button:hover {
+  box-shadow: 0 0 10px 0 rgba(241, 234, 234, 0.0705882353) inset, 0 0 4px 1px #eae0e0;
+  background: transparent;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-2-card.png") no-repeat;
+}
+.card2 button {
+  background: #FFFFFF;
+  border-radius: 14px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.card2 button:hover {
+  box-shadow: 0 0 10px 0 rgba(241, 234, 234, 0.0705882353) inset, 0 0 4px 1px #eae0e0;
+  background: transparent;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-3-card.png") no-repeat;
+}
+.card3 button {
+  background: #FFFFFF;
+  border-radius: 14px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.card3 button:hover {
+  box-shadow: 0 0 10px 0 rgba(241, 234, 234, 0.0705882353) inset, 0 0 4px 1px #eae0e0;
+  background: transparent;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  background: center/cover url("../images/image-4-card.png") no-repeat;
+}
+.card4 button {
+  background: #FFFFFF;
+  border-radius: 14px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.card4 button:hover {
+  box-shadow: 0 0 10px 0 rgba(241, 234, 234, 0.0705882353) inset, 0 0 4px 1px #eae0e0;
+  background: transparent;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .p-upper2 {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .card-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .card-contr p {
+    font-size: 8px;
+    line-height: 10px;
+    padding-right: 25px;
+    padding-left: 20px;
+  }
+  .card-contr .p-upper {
+    text-transform: uppercase;
+    padding-top: 250px;
   }
 }
 

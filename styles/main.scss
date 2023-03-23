@@ -1,37 +1,40 @@
 @use "fonts";
 
-html{
-  font-family:'Poppins';
+html {
+  font-family: 'Poppins';
 }
 
-body{
+body {
   background: black;
-  h1{
+
+  h1 {
     font-size: 54px;
     line-height: 59px;
     color: #FFFFFF;
   }
-  p{
+
+  p {
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
   }
-  a{
+
+  a {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
   }
 }
 
-header{
+header {
   padding: 10px 0;
 }
 
-.desctop{
+.desctop {
   display: none;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -65,11 +68,11 @@ header{
   padding: 0.7rem;
 }
 
-.navbar .nav-container a:hover{
+.navbar .nav-container a:hover {
   font-weight: bolder;
 }
 
-.navbar .nav-container .menu-items button{
+.navbar .nav-container .menu-items button {
   background: #FFFFFF;
   border-radius: 14px;
   width: 120px;
@@ -78,8 +81,9 @@ header{
   margin: 0 auto;
   padding: 6px;
   cursor: pointer;
-  &:hover{
-    box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
     background: transparent;
     color: white;
     transition-duration: 0.6s;
@@ -183,45 +187,49 @@ header{
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo{
+.nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  header{
+  header {
     padding: 30px 0;
   }
 
-.mobile{
-  display: none;
-}
-  .desctop{
+  .mobile {
+    display: none;
+  }
+  .desctop {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    svg{
+
+    svg {
       width: 100px;
       height: 25px;
     }
   }
-  .logo{
+  .logo {
     position: inherit;
     top: 0;
     right: 0;
   }
-  .menu-items{
+  .menu-items {
     display: flex;
     align-items: center;
     gap: 10px;
-    a{
+
+    a {
       font-size: 12px;
       color: #C0C0C0;
-      &:hover{
+
+      &:hover {
         color: white;
         transition-duration: 0.6s;
       }
     }
-    button{
+
+    button {
       background: #FFFFFF;
       border-radius: 14px;
       width: 100px;
@@ -232,14 +240,17 @@ header{
       padding: 6px;
       cursor: pointer;
       font-size: 12px;
-      &:hover{
-        box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+
+      &:hover {
+        box-shadow: 0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
         background: transparent;
         transition-duration: 0.6s;
       }
-      a{
+
+      a {
         color: black;
-        &:hover{
+
+        &:hover {
           color: #fafafa;
         }
       }
@@ -247,20 +258,22 @@ header{
   }
 }
 
-@media screen and (min-width: 1024px){
-.desctop{
-  svg{
-    width: 120px;
-    height: 38px;
+@media screen and (min-width: 1024px) {
+  .desctop {
+    svg {
+      width: 120px;
+      height: 38px;
+    }
   }
-  }
-  .menu-items{
+  .menu-items {
     gap: 40px;
-    a{
+
+    a {
       font-size: 15px;
       line-height: 20px;
     }
-    button{
+
+    button {
       width: 155px;
       height: 42px;
     }
@@ -269,10 +282,11 @@ header{
 
 //Main section
 
-.main-section{
+.main-section {
   background: center/cover url("../images/bgimage.jpg") no-repeat;
   text-align: center;
-  .main-block{
+
+  .main-block {
     padding: 200px 10px 35px 10px;
     display: flex;
     flex-direction: column;
@@ -280,24 +294,28 @@ header{
     text-align: center;
     margin: 0 auto;
     gap: 5px;
-    h1{
+
+    h1 {
       font-size: 35px;
       line-height: 40px;
     }
-    p{
+
+    p {
       font-size: 10px;
       line-height: 15px;
     }
   }
 }
-.cont-svg{
+
+.cont-svg {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
   padding-bottom: 20px;
   align-items: center;
   gap: 5px;
-  p{
+
+  p {
     font-size: 9px;
     line-height: 5px;
     color: #FFFFFF;
@@ -305,27 +323,32 @@ header{
 }
 
 @media screen and (min-width: 1024px) {
-.main-section{
-  height: 720px;
-  .main-block{
-    padding: 430px 10px 75px 10px;
-    gap: 15px;
-    h1{
-      font-size: 54px;
-      line-height: 59px;
-    }
-    p{
-      font-size: 14px;
-      line-height: 20px;
-    }
-    .p-upper{
-      letter-spacing: 2px;
+  .main-section {
+    height: 720px;
+
+    .main-block {
+      padding: 430px 10px 75px 10px;
+      gap: 15px;
+
+      h1 {
+        font-size: 54px;
+        line-height: 59px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .p-upper {
+        letter-spacing: 2px;
+      }
     }
   }
-}
-  .cont-svg{
+  .cont-svg {
     gap: 10px;
-    p{
+
+    p {
       font-size: 12px;
       line-height: 15px;
       color: #FFFFFF;
@@ -335,14 +358,15 @@ header{
 
 //Section cards
 
-.hero{
+.hero {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 5px;
   font-size: 30px;
   line-height: 35px;
 }
-.p-upper2{
+
+.p-upper2 {
   font-size: 15px;
   line-height: 25px;
   text-align: center;
@@ -350,32 +374,35 @@ header{
   margin-bottom: 42px;
 }
 
-.card-contr{
+.card-contr {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
   margin-bottom: 50px;
-  p{
+
+  p {
     font-size: 8px;
     line-height: 10px;
     padding-right: 25px;
     padding-left: 20px;
   }
-  .p-upper{
+
+  .p-upper {
     text-transform: uppercase;
     padding-top: 250px;
   }
 }
 
-.card1{
+.card1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 500px;
   background: center/cover url("../images/image-1-card.png") no-repeat;
-  button{
+
+  button {
     background: #FFFFFF;
     border-radius: 14px;
     width: 90px;
@@ -386,8 +413,9 @@ header{
     font-size: 10px;
     margin-left: 20px;
     margin-bottom: 15px;
-    &:hover{
-      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
       background: transparent;
       color: white;
       transition-duration: 0.6s;
@@ -395,13 +423,14 @@ header{
   }
 }
 
-.card2{
+.card2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 500px;
   background: center/cover url("../images/image-2-card.png") no-repeat;
-  button{
+
+  button {
     background: #FFFFFF;
     border-radius: 14px;
     width: 90px;
@@ -412,8 +441,9 @@ header{
     font-size: 10px;
     margin-left: 20px;
     margin-bottom: 15px;
-    &:hover{
-      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
       background: transparent;
       color: white;
       transition-duration: 0.6s;
@@ -421,13 +451,14 @@ header{
   }
 }
 
-.card3{
+.card3 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 500px;
   background: center/cover url("../images/image-3-card.png") no-repeat;
-  button{
+
+  button {
     background: #FFFFFF;
     border-radius: 14px;
     width: 90px;
@@ -438,8 +469,9 @@ header{
     font-size: 10px;
     margin-left: 20px;
     margin-bottom: 15px;
-    &:hover{
-      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
       background: transparent;
       color: white;
       transition-duration: 0.6s;
@@ -447,13 +479,14 @@ header{
   }
 }
 
-.card4{
+.card4 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 500px;
   background: center/cover url("../images/image-4-card.png") no-repeat;
-  button{
+
+  button {
     background: #FFFFFF;
     border-radius: 14px;
     width: 90px;
@@ -464,8 +497,9 @@ header{
     font-size: 10px;
     margin-left: 20px;
     margin-bottom: 15px;
-    &:hover{
-      box-shadow:  0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 #f1eaea12 inset, 0 0 4px 1px #eae0e0;
       background: transparent;
       color: white;
       transition-duration: 0.6s;
@@ -474,67 +508,74 @@ header{
 }
 
 @media screen and (min-width: 768px) {
-  .hero{
+  .hero {
     font-size: 40px;
     line-height: 50px;
   }
-  .p-upper2{
+  .p-upper2 {
     font-size: 17px;
     line-height: 30px;
   }
 
-  .card-contr{
+  .card-contr {
     flex-direction: row;
     align-items: baseline;
     gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 100px;
-    p{
+
+    p {
       font-size: 10px;
       line-height: 15px;
     }
-    .p-upper{
+
+    .p-upper {
       text-transform: uppercase;
       padding-top: 400px;
       font-size: 15px;
     }
   }
 
-  .card1{
+  .card1 {
     max-width: 576px;
-    button{
+
+    button {
       width: 120px;
       font-size: 12px;
     }
   }
-  .card2{
+  .card2 {
     max-width: 576px;
-    button{
+
+    button {
       width: 120px;
       font-size: 12px;
     }
   }
-  .card3{
+  .card3 {
     max-width: 576px;
-    button{
+
+    button {
       width: 120px;
       font-size: 12px;
     }
   }
-  .card4{
+  .card4 {
     max-width: 576px;
-    button{
+
+    button {
       width: 120px;
       font-size: 12px;
     }
   }
 }
+
 //Section3
-.sec3{
+.sec3 {
   background: center/cover url("../images/image-bgsec3.png") no-repeat;
 }
 
-.cont-paragraph-sec3{
+.cont-paragraph-sec3 {
   display: flex;
   flex-direction: column;
   padding-top: 150px;
@@ -543,32 +584,36 @@ header{
   align-items: flex-start;
   text-align: start;
   max-width: 300px;
-  h3{
+
+  h3 {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  p{
+
+  p {
     font-size: 10px;
     line-height: 15px;
   }
 }
 
-@media screen and (min-width: 768px){
-  .cont-paragraph-sec3{
+@media screen and (min-width: 768px) {
+  .cont-paragraph-sec3 {
     padding-top: 260px;
     padding-right: 0;
     padding-bottom: 200px;
     align-items: flex-start;
     text-align: start;
     max-width: 300px;
-    h3{
+
+    h3 {
       font-size: 18px;
       line-height: 25px;
     }
-    p{
+
+    p {
       font-size: 12px;
       line-height: 17px;
     }

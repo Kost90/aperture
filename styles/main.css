@@ -361,6 +361,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 50px;
 }
 .card-contr p {
   font-size: 8px;
@@ -487,21 +488,92 @@ header {
     line-height: 30px;
   }
   .card-contr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
   }
   .card-contr p {
-    font-size: 8px;
-    line-height: 10px;
-    padding-right: 25px;
-    padding-left: 20px;
+    font-size: 10px;
+    line-height: 15px;
   }
   .card-contr .p-upper {
     text-transform: uppercase;
-    padding-top: 250px;
+    padding-top: 400px;
+    font-size: 15px;
+  }
+  .card1 {
+    max-width: 576px;
+  }
+  .card1 button {
+    width: 120px;
+    font-size: 12px;
+  }
+  .card2 {
+    max-width: 576px;
+  }
+  .card2 button {
+    width: 120px;
+    font-size: 12px;
+  }
+  .card3 {
+    max-width: 576px;
+  }
+  .card3 button {
+    width: 120px;
+    font-size: 12px;
+  }
+  .card4 {
+    max-width: 576px;
+  }
+  .card4 button {
+    width: 120px;
+    font-size: 12px;
+  }
+}
+.sec3 {
+  background: center/cover url("../images/image-bgsec3.png") no-repeat;
+}
+
+.cont-paragraph-sec3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-bottom: 80px;
+  padding-right: 10px;
+  align-items: flex-start;
+  text-align: start;
+  max-width: 300px;
+}
+.cont-paragraph-sec3 h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.cont-paragraph-sec3 p {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .cont-paragraph-sec3 {
+    padding-top: 260px;
+    padding-right: 0;
+    padding-bottom: 200px;
+    align-items: flex-start;
+    text-align: start;
+    max-width: 300px;
+  }
+  .cont-paragraph-sec3 h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .cont-paragraph-sec3 p {
+    font-size: 12px;
+    line-height: 17px;
   }
 }
 

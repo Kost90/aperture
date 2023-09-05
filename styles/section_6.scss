@@ -1,0 +1,25 @@
+.sec6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        margin-top: 113px;
+    }
+    p {
+        margin-bottom: 82px;
+    }
+}
+
+.flex-images-sec6 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 109px;
+    margin-bottom: 140px;
+}

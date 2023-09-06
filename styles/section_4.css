@@ -2,17 +2,18 @@
   display: flex;
   background-color: black;
   justify-content: space-between;
+  flex-direction: column;
 }
 .sec4 p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 10px;
+  line-height: 15px;
   text-transform: uppercase;
 }
 .sec4 h1 {
-  font-size: 28px;
+  font-size: 35px;
+  line-height: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
 }
 
 .text_container_sec4 {
@@ -21,17 +22,15 @@
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
-  width: 50%;
-  max-width: 740px;
-  padding: 60px 113px;
+  max-width: 540px;
+  padding: 40px 50px;
 }
 
 .foto_container_sec4 {
   display: flex;
   justify-content: end;
   align-items: end;
-  width: 50%;
-  height: 540px;
+  height: 400px;
   background: center/cover url("../images//bg_sec4.png") no-repeat;
 }
 .foto_container_sec4 p {
@@ -40,8 +39,54 @@
 .foto_container_sec4 .cont-svg-sec4 {
   display: flex;
   justify-content: flex-end;
-  padding-right: 130px;
-  padding-bottom: 40px;
+  padding-right: 30px;
+  padding-bottom: 20px;
   align-items: center;
   gap: 5px;
+}
+
+@media (min-width: 768px) {
+  .sec4 {
+    justify-content: space-between;
+  }
+  .sec4 p {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .sec4 h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .text_container_sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    max-width: 740px;
+    padding: 60px 113px;
+  }
+  .foto_container_sec4 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 50%;
+    height: 540px;
+    background: center/cover url("../images//bg_sec4.png") no-repeat;
+  }
+  .foto_container_sec4 p {
+    text-transform: none;
+  }
+  .foto_container_sec4 .cont-svg-sec4 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 130px;
+    padding-bottom: 40px;
+    align-items: center;
+    gap: 5px;
+  }
 }/*# sourceMappingURL=section_4.css.map */

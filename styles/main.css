@@ -64,6 +64,7 @@
 @media (min-width: 768px) {
   .sec4 {
     justify-content: space-between;
+    flex-direction: row;
   }
   .sec4 p {
     font-size: 14px;

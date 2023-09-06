@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.flex_container_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    svg{
+        width: 100px;
+        height: 25px;
+    }
+}
+
+.footer_svg_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    svg{
+        width: 24px;
+        height: 24px;
+    }
+}

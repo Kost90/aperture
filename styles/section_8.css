@@ -1,0 +1,52 @@
+.sec8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 113px 0px;
+}
+.sec8 h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+.sec8 button {
+  background: white;
+  border-radius: 14px;
+  width: 154px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+.sec8 button p {
+  color: black;
+}
+.sec8 button div {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  border-radius: 15px;
+}
+.sec8 button:focus p {
+  display: none;
+}
+.sec8 button:focus div {
+  position: relative;
+  animation-name: getintouch;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes getintouch {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 110px;
+  }
+}/*# sourceMappingURL=section_8.css.map */
